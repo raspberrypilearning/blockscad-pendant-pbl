@@ -21,7 +21,7 @@ There will be several stages in creating your pendant.
 2. Use repetition to create a pattern of shapes
 3. Create a frame around the shapes
 4. Create a way of attaching the pendant to a necklace
-5 Use the skills you've learned to design your own pendant.
+5. Use the skills you've learned to design your own pendant.
 6. 3D print your finished pendant
 
 --- collapse ---
