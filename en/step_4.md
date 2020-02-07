@@ -1,4 +1,4 @@
-## Develope - Add a border
+## Develop - Add a border
 
 Next, add a border around the edge of the design. 
 

@@ -1,6 +1,6 @@
 ## Define
 
-You want to make some custom jewelery; something unique that only you will own. Thanks to 3D printing technology, this is now possible and relatively easy to accomplish.
+You want to make some custom Jewellery; something unique that only you will own. Thanks to 3D printing technology, this is now possible and relatively easy to accomplish.
 
 ## Discover
 
@@ -12,7 +12,7 @@ However, once you have the skills, you will be able to design your very own pend
 
 ## Design
 
-Get a piece of paper, and sketch out some ideas for your own custome pendant. They don't have to be final designs, but just something to give you some inspiration.
+Get a piece of paper, and sketch out some ideas for your own custom pendant. They don't have to be final designs, but just something to give you some inspiration.
 
 ## Decompose
 
@@ -21,13 +21,14 @@ There will be several stages in creating your pendant.
 2. Use repetition to create a pattern of shapes
 3. Create a frame around the shapes
 4. Create a way of attaching the pendant to a necklace
-5. 3D print your finished pendant
-6. Use the skills you've learned to design your own pendant.
+5 Use the skills you've learned to design your own pendant.
+6. 3D print your finished pendant
 
 --- collapse ---
 ---
 title: What you will need
 ---
+
 ### Hardware
 
 + A 3D printer, and filament in a colour of your choice
@@ -54,9 +55,13 @@ title: What you will learn
 title: Additional information for educators
 ---
 
+This is a perfect project for learners to adapt what they have learned to create their own designs. If you have the time available allow them to create their own pendants.
+
+Scaling can be an issue on a learner's designs. Before exporting to STL format, ensure that their print size is not microscopic, or the size of a car.
+
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/blockscad-pendant/print){:target="_blank"}.
 
 Download the finished project code at:
-[http://rpf.io/p/en/blockscad-pendant](http://rpf.io/p/en/blockscad-pendant).
+[http://rpf.io/p/en/blockscad-pendant-get](http://rpf.io/p/en/blockscad-pendant-get).
 
 --- /collapse ---
