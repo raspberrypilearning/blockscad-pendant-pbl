@@ -4,7 +4,7 @@ description: Design a pendant to 3D print and wear.
 version: 4
 duration: 2 # possible values: 1, 2 or 3
 theme: green
-listed: true
+listed: false
 copyedit: true
 last_tested: "2018-03-21"
 site_areas:
