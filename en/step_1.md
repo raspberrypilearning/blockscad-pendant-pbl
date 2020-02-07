@@ -1,22 +1,28 @@
-## Introduction
+## Define
 
-In this project, you will use BlocksCAD to design a 3D pendant. The pendant uses a geometric design based on the 'Flower of Life', a design which is often found in historical art. 
+You want to make some custom jewelery; something unique that only you will own. Thanks to 3D printing technology, this is now possible and relatively easy to accomplish.
 
-BlocksCAD is a 3D model editor that you can use in a web browser on a desktop computer or tablet. You drag and drop code blocks to design 3D models that can be exported for 3D printing.
+## Discover
 
-If you have access to a 3D printer, then you can print your pendant. The pendant is small and only uses a little bit of filament, and it is quick to 3D print.
-
-### What you will make
-
-The finished pendant looks like this:
+In this project the pendant you will make, will look like this:
 
 ![screenshot](images/pendant-finished.png) 
 
-The pendant has a hoop on top so that you can put it on a necklace or cord. 
+However, once you have the skills, you will be able to design your very own pendant. Have a look at some of [these designs](https://www.google.com/search?q=3d+printed+jewellery&tbm=isch&chips=q:3d+printed+jewellery,g_1:geometric:q-53194p1cU%3D&hl=en&ved=2ahUKEwjr3IGPgb_nAhVL1eAKHZVwBxYQ4lYoAXoECAEQFw&biw=1061&bih=1765), to give you some inspiration for what you can make.
 
-The pendant has a diameter of 40mm, plus the hoop for hanging. It is 2mm thick, so it will 3D print quite quickly.
+## Design
 
-After this project, you’ll also be able to code your own design and create a custom pendant. 
+Get a piece of paper, and sketch out some ideas for your own custome pendant. They don't have to be final designs, but just something to give you some inspiration.
+
+## Decompose
+
+There will be several stages in creating your pendant.
+1. Create an initial 3D shape
+2. Use repetition to create a pattern of shapes
+3. Create a frame around the shapes
+4. Create a way of attaching the pendant to a necklace
+5. 3D print your finished pendant
+6. Use the skills you've learned to design your own pendant.
 
 --- collapse ---
 ---

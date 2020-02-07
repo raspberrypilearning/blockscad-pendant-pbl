@@ -1,18 +1,8 @@
-## Challenge: Change the pendant
+## Challenge: Create your own pendant
 
---- challenge ---
-The design is influenced by the 'Flower of Life' pattern. If you like, you could research the 'Flower of Life' and see if you can create a design based on the 'Seed of Life' pattern. 
+Now that you understand how to place repeating shapes, you can try and design your own pendant.
 
-![screenshot](images/pendant-seed-of-life.png) 
+To begin with why not just change the initial shape that is repeated, or the number of repetitions.
 
---- /challenge ---
-
---- challenge ---
-Experiment and change some values in your pendant. For example, change the number of hoops, or the rotation. 
-
-You could also try to use cuboids (cubes) instead of cylinders to create a pattern.
-
-![screenshot](images/pendant-challenge.png) 
-
---- /challenge ---
+Then, go back to your original designs and see if you can recreate one of them, or maybe just make something brand new!
 
