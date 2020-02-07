@@ -47,7 +47,7 @@ You need to change the loop to run from 1 to 6 and move in multiples of 60 degre
 
 Your code should look like this:
 
-[screenshot](images/pendant-6-hoops.png) 
+![screenshot](images/pendant-6-hoops.png) 
 
 --- /hint ---
 
