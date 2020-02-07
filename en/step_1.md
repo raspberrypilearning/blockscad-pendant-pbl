@@ -1,20 +1,22 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+In this project, you will use BlocksCAD to design a 3D pendant. The pendant uses a geometric design based on the 'Flower of Life', a design which is often found in historical art. 
+
+BlocksCAD is a 3D model editor that you can use in a web browser on a desktop computer or tablet. You drag and drop code blocks to design 3D models that can be exported for 3D printing.
+
+If you have access to a 3D printer, then you can print your pendant. The pendant is small and only uses a little bit of filament, and it is quick to 3D print.
 
 ### What you will make
 
---- no-print ---
-Add instructions for using the embedded content here.
+The finished pendant looks like this:
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+![screenshot](images/pendant-finished.png) 
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+The pendant has a hoop on top so that you can put it on a necklace or cord. 
+
+The pendant has a diameter of 40mm, plus the hoop for hanging. It is 2mm thick, so it will 3D print quite quickly.
+
+After this project, you’ll also be able to code your own design and create a custom pendant. 
 
 --- collapse ---
 ---
@@ -22,17 +24,12 @@ title: What you will need
 ---
 ### Hardware
 
-+ Describe hardware here
++ A 3D printer, and filament in a colour of your choice
++ A necklace or cord to hang the pendant on
 
 ### Software
 
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ [rpf.io/project-name-go](http://rpf.io/project-name-go){:target="_blank"}
++ This project can be completed in a web browser using BlocksCAD [blockscad3d.com/editor](https://www.blockscad3d.com/editor){:target="_blank"}
 
 --- /collapse ---
 
@@ -41,8 +38,8 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Two or three learning objectives
-+ ...should go here
++ How to use `count` loops to create geometric patterns
++ How to use `difference` blocks to create hoops from cylinders
 
 --- /collapse ---
 
@@ -51,8 +48,9 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/blockscad-pendant/print){:target="_blank"}.
 
-[Here is a link to the resources for this project](http://rpf.io/project-name-go).
+Download the finished project code at:
+[http://rpf.io/p/en/blockscad-pendant](http://rpf.io/p/en/blockscad-pendant).
 
 --- /collapse ---

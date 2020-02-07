@@ -1,11 +1,18 @@
-title: blockscad-pendant-pbl
+title: 3D pendant
 hero_image: images/banner.png
-description: blockscad-pendant-pbl description
+description: Design a pendant to 3D print and wear.
 version: 4
-listed: false
-copyedit: false
-last_tested: "2020-02-07"
+duration: 2 # possible values: 1, 2 or 3
+theme: green
+listed: true
+copyedit: true
+last_tested: "2018-03-21"
+site_areas:
 steps:
   - title: Introduction
-  - title: Step title
-  - title: What next?
+  - title: Create a hoop
+  - title: Add more hoops
+  - title: Add a border
+  - title: Add a hanging hoop
+  - title: "Challenge: Change the pendant"
+  - title: 3D print and assemble your pendant
