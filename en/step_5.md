@@ -1,28 +1,49 @@
-## Develop - Add a hanging hoop
+## Develop - Add a border
 
-Now, add a small hanging hoop through which you can thread a cord to make a necklace. 
+Next, add a border around the edge of the design. 
 
-Tip: This code adds a small hoop that can be used with elastic necklace thread. If you have a bigger cord or chain, you can adapt the code to create a bigger hanging hoop. 
-	
+![screenshot](images/pendant-border-show.png) 
+
 --- task ---
 
-Add a small hanging hoop that you can put a thread through. 
+Create a centred hoop that touches the edges of the design. You can either do the maths to work out what the radius of the circle needs to be, or you can just create a circle and change the radius until it works. Either approach is fine!
 
-Click the `[+]` on the `union` block to add another section. 
+Use the `union`{:class="blockscadsetops"} block to join the border to the other hoops:
 	
-![screenshot](images/pendant-hang.png) 
+![screenshot](images/pendant-union.png) 
+
+--- hints --- 
+
+--- hint ---
+Use the `cylinder` and `difference` blocks to make the hoop. 
+
+The six hoops each have a radius of 12mm, so the border cylinder that you are making needs to be bigger than that. You could try setting the radius to 24mm. 
+
+To make a hoop, the radius of the second `cylinder` in the `difference` block needs to be 1mm smaller than the radius of the first `cylinder`. 
+
+--- /hint ---
+
+--- hint ---
+Adjust the size of the `cylinders` until the border hoop just touches the outer edges of the six inner hoops. 
+
+--- /hint ---
+
+--- hint ---
+
+The radius should be around `20`. (In the introduction, it said that the finished pendant will be 40mm in diameter!)
+
+![screenshot](images/pendant-border.png)
 	
-At the moment, the position of the hanging hoop isn't very visually pleasing.  
+You could also use maths to work out the diameter. 
+
+The diameter of each inner hoop is 24mm. If the hoops met at the centre of the pendant, then the border hoop would need to have a radius of 24mm. But the inner hoops overlap, because they are translated 5mm along the X and Y axes. 
+
+This removes a section from the radius. This section is on the arc, 5mm from the origin, so we know that we need to remove 5mm from 24mm. This means that the inner radius of the border hoop should be 19mm. 
+
+Maths is really useful when you need to be accurate. But it's fine to just change things until you get the result you need. 
+
+--- /hint ---
+
+--- /hints --- 
 
 --- /task ---
-
---- task ---
-
-Add a `rotate`{:class="blockscadtransforms"} block to move the inner hoops so that the hanging hoop is centred over one of the gaps between them. 
-
-![screenshot](images/pendant-hang-rotate.png) 
-	
---- /task ---	
-
-
-	

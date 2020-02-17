@@ -1,37 +1,21 @@
-## Develop - Create a shape
+## Discover
 
-This design uses six interlocking hoops in the centre, and a larger hoop around the outside. The pendant is 4cm wide, plus the hoop for hanging. It is 2mm thick, so it will 3D print quite quickly.
+In this project the pendant you will make, will look like this:
 
-First, make a single inner hoop. 
+![screenshot](images/pendant-finished.png) 
 
---- task ---
+However, once you have the skills, you will be able to design your very own pendant. Have a look at some of [these designs](https://www.google.com/search?q=3d+printed+jewellery&tbm=isch&chips=q:3d+printed+jewellery,g_1:geometric:q-53194p1cU%3D&hl=en&ved=2ahUKEwjr3IGPgb_nAhVL1eAKHZVwBxYQ4lYoAXoECAEQFw&biw=1061&bih=1765), to give you some inspiration for what you can make.
 
-Open the BlocksCAD editor in a web browser [blockscad3d.com/editor/](https://www.blockscad3d.com/editor/){:target="_blank"}.
+## Design
 
-You can drag and drop blocks to write code to create 3D objects. 
+Get a piece of paper, and sketch out some ideas for your own custom pendant. They don't have to be final designs, but just something to give you some inspiration.
 
---- /task ---
+## Decompose
 
---- task ---
-
-Create a `cylinder` with a radius of `12` and a height of `2` (the unit here is millimetres). 
-
-![screenshot](images/pendant-cylinder.png) 
-	
-`Cylinders` are automatically centred along the X and Y axes. Select `not centered` so that the pendant sits on the surface. (This means that the Z axis value is larger than 0).
-	
-Click on the **Render** button after each change to your code to see the results. 
-
---- /task ---
-
---- task ---
-
-Now, use `difference`{:class="blockscadsetops"} to remove a smaller `cylinder` from the centre. This creates a hoop:
-
-![screenshot](images/pendant-hoop.png) 
-	
-If you like, you can click on the coloured square to change the colour used in the viewer. This does not affect the colour of your pendant, as that depends on the colour of the filament that you use. 
-	
---- /task ---
-	
-	
+There will be several stages in creating your pendant.
+1. Create an initial 3D shape
+2. Use repetition to create a pattern of shapes
+3. Create a frame around the shapes
+4. Create a way of attaching the pendant to a necklace
+5. Use the skills you've learned to design your own pendant.
+6. 3D print your finished pendant
