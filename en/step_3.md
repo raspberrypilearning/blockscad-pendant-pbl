@@ -1,57 +1,37 @@
-## Develop - Repeat the shapes
+## Develop - Create a shape
 
-The design uses six intersecting hoops, and each hoop is moved out from the centre and rotated a different number of degrees. 
+This design uses six interlocking hoops in the centre, and a larger hoop around the outside. The pendant is 4cm wide, plus the hoop for hanging. It is 2mm thick, so it will 3D print quite quickly.
+
+First, make a single inner hoop. 
 
 --- task ---
 
-In the final design, there is no central hoop: the hoops are all moved out from the centre.
+Open the BlocksCAD editor in a web browser [blockscad3d.com/editor/](https://www.blockscad3d.com/editor/){:target="_blank"}.
 
-First, `translate`{:class="blockscadtransforms"} (move) the first hoop into position. 
-	
-![screenshot](images/pendant-translate.png) 
-	
-Now the hoop is a little off-centre. 
+You can drag and drop blocks to write code to create 3D objects. 
 
 --- /task ---
 
 --- task ---
 
-You need multiple copies of this hoop, rotated around the centre. First, create three equally spaced hoops:
+Create a `cylinder` with a radius of `12` and a height of `2` (the unit here is millimetres). 
 
-Add a `count`{:class="blockscadloops"} loop to create three hoops. To space the hoops, add a `rotate`{:class="blockscadtransforms"} block between the `count` loop and the `translate` block. `Count` sets the `i` variable from 1 to 3. `Rotate` moves each hoop by `120 × i` degrees, so the the three hoops are distributed equally around the 360 degrees of a circle (360 / 3 = 120).
-
-![screenshot](images/pendant-3-hoops.png) 
-
-Look at the code and make sure you understand how it works. 
+![screenshot](images/pendant-cylinder.png) 
+	
+`Cylinders` are automatically centred along the X and Y axes. Select `not centered` so that the pendant sits on the surface. (This means that the Z axis value is larger than 0).
+	
+Click on the **Render** button after each change to your code to see the results. 
 
 --- /task ---
 
 --- task ---
 
-The finished design has six hoops rather than three. Change your code so that it creates six equally spaced hoops.
+Now, use `difference`{:class="blockscadsetops"} to remove a smaller `cylinder` from the centre. This creates a hoop:
 
---- hints ---
-
---- hint ---
-
-Change the `count`{:class="blockscadloops"} loop so that it runs six times instead of three. The six hoops will need to be equally spaced around 360 degrees. 
-
---- /hint ---
-
---- hint ---
-You need to change the loop to run from 1 to 6 and move in multiples of 60 degrees (360 / 6 = 60):
-
---- /hint ---
-
---- hint ---
-
-Your code should look like this:
-
-![screenshot](images/pendant-6-hoops.png) 
-
---- /hint ---
-
---- /hints ---
-
---- /task ---	
+![screenshot](images/pendant-hoop.png) 
+	
+If you like, you can click on the coloured square to change the colour used in the viewer. This does not affect the colour of your pendant, as that depends on the colour of the filament that you use. 
+	
+--- /task ---
+	
 	

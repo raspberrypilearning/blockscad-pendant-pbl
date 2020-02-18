@@ -10,6 +10,7 @@ last_tested: "2018-03-21"
 site_areas:
 steps:
   - title: Introduction
+  - title: Discover and Design
   - title: Develop - Create a shape
   - title: Develop - Repeat the shapes
   - title: Develope - Add a border
